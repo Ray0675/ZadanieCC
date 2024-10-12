@@ -2,7 +2,7 @@
 
 public class BubbleSorter<T>
 {
-    public static void Sort(List<T> list, CompareOp lhsIsGreater)
+    public static void Sort(List<T> list, CompareOp lhsIsGreater) // Комментарий
     {
         for (int i = 1; i < list.Count; i++)
         {
